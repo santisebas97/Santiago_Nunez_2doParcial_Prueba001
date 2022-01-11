@@ -1,5 +1,6 @@
 package com.aperez.apps.androidfunwithflags;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -29,11 +30,16 @@ public class NUNEZ_LoginActivity extends AppCompatActivity {
                 String usuario = editTextUsuario.getText().toString();
                 String contrasena = editTextContrasena.getText().toString();
 
-                if(usuario.equals("")){
-
+                if(usuario.equals("santi")&& contrasena.equals("1234")){
+                    Intent intent = new Intent(getApplicationContext(), NUNEZ_MainActivity.class);
+                    startActivity(intent);
                 }
             }
         });
+    }
+
+    public void Ingresar(View view){
+
     }
 
 
