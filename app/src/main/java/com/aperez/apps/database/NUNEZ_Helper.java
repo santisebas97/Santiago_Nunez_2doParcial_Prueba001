@@ -18,11 +18,14 @@ public class NUNEZ_Helper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-
+        sqLiteDatabase.execSQL(createTable_Usuarios);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+        db.execSQL("DROP TABLE IF EXISTS Usuarios");
 
+        //SQL para crear la/s tabla/s con la nueva estructura
+        db.execSQL(createTable_Usuarios);
     }
 }
