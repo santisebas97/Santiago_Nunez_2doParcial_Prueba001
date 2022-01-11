@@ -38,8 +38,9 @@ public class NUNEZ_LoginActivity extends AppCompatActivity {
         });
     }
 
-    public void Ingresar(View view){
-
+    public void Registrar(View view){
+        Intent intent = new Intent(getApplicationContext(), NUNEZ_MainActivity.class);
+        this.startActivity(intent);
     }
 
 
