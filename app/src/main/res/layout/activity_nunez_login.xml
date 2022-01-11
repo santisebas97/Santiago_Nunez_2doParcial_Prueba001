@@ -19,7 +19,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/edittext_hint_usuario"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -33,7 +34,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/editext_hint_contrasena"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/buttonIngresarr"

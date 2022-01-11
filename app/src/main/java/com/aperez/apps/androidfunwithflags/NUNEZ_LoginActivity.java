@@ -29,7 +29,9 @@ public class NUNEZ_LoginActivity extends AppCompatActivity {
                 String usuario = editTextUsuario.getText().toString();
                 String contrasena = editTextContrasena.getText().toString();
 
-                if(usuario.equals(""))
+                if(usuario.equals("")){
+
+                }
             }
         });
     }
