@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".NUNEZ_Registro"
+            android:exported="false" />
+        <activity
             android:name=".NUNEZ_LoginActivity"
             android:exported="false" />
         <activity
